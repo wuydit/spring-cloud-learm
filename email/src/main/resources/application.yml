@@ -1,0 +1,22 @@
+spring:
+  mail:
+    host: smtp.163.com
+    username:
+    password:
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          auth: true
+        starttls:
+          enable: true
+          required: true
+  freemarker:
+    content-type: text/html
+    suffix: .html
+    template-loader-path: classpath:/templates
+    charset: UTF-8
+    check-template-location: true
+test:
+  mail:
+    sender:
